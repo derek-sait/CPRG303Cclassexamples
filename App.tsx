@@ -5,6 +5,7 @@ import HomeScreen from './src/screens/HomeScreen';
 import TestScreen from './src/screens/TestScreen';
 import AboutScreen from './src/screens/AboutScreen';
 import ContactScreen from './src/screens/ContactScreen';
+import FetchDataScreen from './src/screens/FetchDataScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,6 +18,7 @@ function App(): React.JSX.Element {
         <Stack.Screen name="Test" component={TestScreen} />
         <Stack.Screen name="About" component={AboutScreen} />
         <Stack.Screen name="Contact" component={ContactScreen} />
+        <Stack.Screen name="FetchData" component={FetchDataScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
